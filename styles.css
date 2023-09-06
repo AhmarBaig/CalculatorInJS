@@ -1,0 +1,91 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  align-items: center;
+  background: linear-gradient(120deg, rgb(71, 71, 252), rgb(253, 190, 73));
+  display: flex;
+  font-family:'Courier New', Courier, monospace;
+  height: inherit;
+  justify-content: center;
+}
+
+.wrapper {
+  backdrop-filter: blur(5.5px);
+  border-radius: 15px;
+  box-shadow: 0 5px 30px rgba(35, 35, 35, 0.1);
+  color: #353535;
+  backdrop-filter: blur(5px);
+  background: rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  flex-basis: 400px;
+  height: 500px;
+  padding: 20px 35px;
+}
+
+.inOutScreen {
+  backdrop-filter: blur(5px);
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.01);
+  border-radius: 15px;
+  box-shadow: 0 5px 30px rgba(35, 35, 35, 0.3);
+  color: black;
+  font-size: 35px;
+  overflow: auto;
+  padding: 20px 30px 20px 20px;
+  text-align: right;
+  font-weight: bold;
+  width: 350px;
+}
+
+.rowButtons {
+  display: flex;
+  justify-content: space-between;
+  margin: 5% 0;
+}
+
+.calcButton {
+  backdrop-filter: blur(5px);
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.01);
+  border-radius: 15px;
+  box-shadow: 0 5px 30px rgba(35, 35, 35, 0.1);
+  color: black;
+  flex-basis: 20%;
+  font-family: inherit;
+  font-size: 24px;
+  height: 63px;
+}
+
+.calcButton:last-child {
+  backdrop-filter: blur(5px);
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.01);
+  border-radius: 15px;
+  box-shadow: 0 5px 30px rgba(35, 35, 35, 0.1);
+  color: white;
+  background: #be77f5;
+}
+
+.calcButton:last-child:hover {
+  background-color: inherit;
+  color: inherit;
+}
+
+.calcButton:hover {
+  background-color: inherit;
+}
+
+.calcButton:active {
+  background-color: #d3abf1;
+}
+
+.increaseDouble {
+  flex-basis: 47%;
+}
+
+.increaseTriple {
+  flex-basis: 73%;
+}
